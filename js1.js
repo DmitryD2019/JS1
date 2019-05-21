@@ -25,16 +25,16 @@ console.log(s3);
 let num1;
 let num2;
 let num3;
-num1 = 160;
-num2 = 150;
+num1 = 130;
+num2 = 120;
 num3 = 140;
 
 if (num1 < num2 && num1 < num3) {
-console.log(num1);
-} else if (num2 < num1 && num2 < num3) {
-console.log(num2);
+    console.log(num1);
+} else if (num2 < num3) {
+    console.log(num2);
 } else {
-console.log(num3);  
+    console.log(num3);  
 }
 
 /*Задача 4
@@ -58,7 +58,7 @@ console.log(n);
 }*/
 
 /*let m = 8;
-let n = 11;
+let n = 11; 
 if (m - n > 10 && 10 > n - m) {
 console.log(n);
 } else {
@@ -73,11 +73,26 @@ console.log(n);
 console.log(m);
 }*/
 
-let m = 40
-let n = -5;
-if (10 - m > 10 - n) {
-console.log(m);
+/*let m = -40
+let n = 9;
+if (m < 10 && m - n > 10 || m > 0 && m - n < 10) {
+    console.log(n);
 } else {
-console.log(n);
-}      
+    console.log(m);
+}     */ 
 
+/*let m = 12;
+let n = 7;
+if (m > 10 < n || m < 10 > n ) {
+    console.log(n);
+} else {
+    console.log(m);
+}  */
+
+/*let m = 12;
+let n = 70;
+if (m - n > 0 && m > n || ) {
+    console.log(m);
+} else {
+    console.log(n);
+}*/

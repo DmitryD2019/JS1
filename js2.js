@@ -4,19 +4,19 @@ const CONST_VALUE = 123;
 
 // Задача 1
 
-let month = 'ноябрь';
+let month = 7;
 
-if (month === 'декабрь' || month === 'январь' || month === 'февраль') {
+if (month === 12 || month === 1 || month === 2) {
     console.log("сейчас зима");
-} else if (month === 'март' || month === 'апрель' || month === 'май') {
+} else if (month === 3 || month === 4 || month === 5) {
     console.log("сейчас весна");
-} else if (month === 'июнь' || month === 'июль' || month === 'август') {
+} else if (month === 6 || month === 7 || month === 8) {
     console.log("сейчас лето");
-} else if (month === 'сентябрь' || month === 'октябрь' || month === 'ноябрь') {
+} else if (month === 9 || month === 10 || month === 11) {
     console.log("сейчас осень");
 }
 
-//Задача 2
+/*//Задача 2
 
 let dcm = 0.1;
 let km = 1000;
@@ -36,7 +36,31 @@ if (unit === 'dcm') {
     console.log (length * mm);
 } else if (unit === 'cm') {
     console.log (length * cm);
+}*/
+
+
+//Задача 2
+
+let dcm = 1;
+let km = 2;
+let m = 3;
+let mm = 4;
+let cm = 5;
+let length = 15;
+let unit = 4;
+
+if (unit === 1) {
+    console.log (length * 0.1);
+} else if (unit === 2) {
+    console.log (length * 1000);
+} else if (unit === 3) {
+    console.log (length * 1);
+} else if (unit === 4) {
+    console.log (length * 0.001);
+} else if (unit === 5) {
+    console.log (length * 0.01);
 }
+
 
 //Задача 4
 
@@ -44,15 +68,14 @@ let i = 100;
 let three;
 let five;
     
-for (let i = 100; i > 0; i--) 
-    {
-        if (i % 3 === 0) {
+for (let i = 100; i > 0; i--) {
+    if (i % 3 === 0) {
         console.log('three');
-        } else if (i % 5 === 0){ 
+    } else if (i % 5 === 0){ 
         console.log('five');
-        } else {console.log (i);
-        } continue;
-    } 
+    } else {console.log (i);
+    } continue;
+} 
 
 /*
 // деление на 3 и на 5 
@@ -79,7 +102,7 @@ let d = 'положительное трехзначное';
 let e = 'положительное двузначное';
 let f = 'положительное однозначное';
 let g = 'нуль';
-let h = 'вне диапазона'
+let h = 'вне диапазона';
 let min = -999;
 let max = 999;
 
