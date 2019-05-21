@@ -37,6 +37,50 @@ if (num1 < num2 && num1 < num3) {
     console.log(num3);  
 }
 
+
+//Задача 4
+
+let m = 40;
+let n = -1;
+
+if (m >= 0 && m > 10 && n >= 0 && n > 10 && n > m) {
+    console.log(m);
+} else if (m <= 0 && n <= 0 && m > n){
+    console.log(m);
+} else if (m <= 0 && n <= 0 && m < n){
+    console.log(n);
+} else if (m >= 0 && m > 10 && n >= 0 && n < 10 && 10 - n > m - 10){
+    console.log(m);
+} else if (m >= 0 && m < 10 && n >= 0 && n > 10 && 10 - n > m - 10){
+    console.log(n);
+} else if (m >= 0 && m > 10 && n >= 0 && n < 10 && 10 - n < m - 10){
+    console.log(n);
+} else if (m >= 0 && m > 10 && n >= 0 && n > 10 && n < m) {
+    console.log(n);
+} else if (m <= 0 && n >= 0 && n > 10 && 10 - n > m - 10) {
+    console.log(n);
+} else if (m <= 0 && n >= 0 && n > 10 && 10 - n < m - 10) {
+    console.log(m);
+} else if (m >= 0 && m < 10 && n >= 0 && n > 10 && 10 - n < m - 10){
+    console.log(m);
+} else if (m >= 0 && m > 10 && n <= 0 && 10 - n > m - 10){
+    console.log(m);
+} else if (m >= 0 && m < 10 && n <= 0 && 10 - n > m - 10){
+    console.log(m);
+} else if (m <= 0 && n >= 0 && n < 10 && 10 - n > m - 10) {
+    console.log(n);
+} else if (m >= 0 && m < 10 && n >= 0 && n < 10 && n > m){
+    console.log(n);
+} else if (m >= 0 && m > 10 && n <= 0 && 10 - n < m - 10){
+    console.log(n);
+} else if (m >= 0 && m < 10 && n >= 0 && n < 10 && m > n){
+    console.log(m);
+} else if (m = n){
+    console.log(m);
+} 
+
+
+
 /*Задача 4
 let m = 8.5;
 let n = 11.45;
@@ -96,3 +140,4 @@ if (m - n > 0 && m > n || ) {
 } else {
     console.log(n);
 }*/
+
