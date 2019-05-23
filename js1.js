@@ -40,7 +40,7 @@ if (num1 < num2 && num1 < num3) {
 
 //Задача 4
 
-let m = 40;
+let m = 10;
 let n = -1;
 
 if (m >= 0 && m > 10 && n >= 0 && n > 10 && n > m) {
@@ -63,9 +63,9 @@ if (m >= 0 && m > 10 && n >= 0 && n > 10 && n > m) {
     console.log(m);
 } else if (m >= 0 && m < 10 && n >= 0 && n > 10 && 10 - n < m - 10){
     console.log(m);
-} else if (m >= 0 && m > 10 && n <= 0 && 10 - n > m - 10){
+} else if (m >= 0 && m >= 10 && n <= 0 && 10 - n > m - 10){             //добавил =  (m>=10)
     console.log(m);
-} else if (m >= 0 && m < 10 && n <= 0 && 10 - n > m - 10){
+} else if (m >= 0 && m <= 10 && n <= 0 && 10 - n > m - 10){             //добавил =  (m<=10)
     console.log(m);
 } else if (m <= 0 && n >= 0 && n < 10 && 10 - n > m - 10) {
     console.log(n);
