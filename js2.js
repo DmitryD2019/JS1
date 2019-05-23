@@ -74,7 +74,7 @@ for (let i = 100; i > 0; i--) {
     } else if (i % 5 === 0){ 
         console.log('five');
     } else {console.log (i);
-    } continue;
+    } 
 } 
 
 /*
@@ -88,7 +88,7 @@ for (let i = 100; i > 0; i--)
         if (i % 3 === 0 && i % 5 === 0) {
         console.log('ThreeFive');
         } else {console.log (i);
-        } continue;
+        } 
     } 
 */
 
