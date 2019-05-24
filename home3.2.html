@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+            var area = [null, null, 1, null, -1, null, 1, null, -1];
+            
+            var table;
+            var td;
+            var tr;
+
+             for(var i = 0; i <= 8; i++) 
+            {
+                if (area[i] === -1) {
+                    area[i] = 'O'; 
+                } else if (area[i] === 1) {
+                    area[i] = 'X';
+                } else {
+                    area[i] = ' ';
+                }
+            } 
+            console.log(area);
+            
+            var str = '<table id = "area" border="3" color="solid black">' +
+            '<tr>' +
+                '<td>' + area[0] + '</td>' +
+                '<td>' + area[1] + '</td>' +
+                '<td>' + area[2] + '</td>' + 
+            '</tr>' +
+            '<tr>' + 
+                '<td>' + area[3] + '</td>' +
+                '<td>' + area[4] + '</td>' +
+                '<td>' + area[5] + '</td>' +
+            '</tr>' +
+            '<tr>' + 
+                '<td>' + area[6] + '</td>' +
+                '<td>' + area[7] + '</td>' +
+                '<td>' + area[8] + '</td>' +
+            '</tr>' +
+            '</table>';
+            console.log(str);
+            document.write(str);
+        </script>
+    </body>
+</html>

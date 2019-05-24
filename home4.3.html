@@ -1,0 +1,17 @@
+<html>
+    <head>
+	    <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+	        var str = prompt("Введите пароль: XX","");
+            var regExp = /([a-z]{1,}) ([A-Z]{1,}) ([0-9]{2}) ([!]{1}) {10,}/; 
+	        if (regExp.test(str))
+	        {
+		        alert("Пароль введён верно!");
+	        } else {
+		        alert("Пароль введён неверно!");
+            }	
+        </script>
+    </body>
+</html>
