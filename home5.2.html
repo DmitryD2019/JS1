@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+
+        var start;
+        var end;
+        var step;
+        var arr = [];
+
+        function range(start, end, step) {
+            if (step === null) step = 1;
+            if (step > 0) {
+                for (var i = start; i <= end; i += step)
+                arr.push(i);
+            } else {
+                for (var i = start; i >= end; i += step)
+                arr.push(i);
+            } return arr;
+        } console.log(range(0, 20, 4));
+        </script>
+    </body>
+</html>
