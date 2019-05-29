@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">  
+            var symbol = 'sc';
+            var str = "javascript";
+            var res = "";
+            var res2 = "";
+            for (var i = 0; i < str.length; i++) {
+                res = str.split(symbol)
+                console.log(res);
+                res2 = res.join(symbol + symbol);
+            } console.log(res2);
+        </script>
+    </body>
+</html>
