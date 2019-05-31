@@ -12,7 +12,7 @@
         var arr = [];
 
         function range(start, end, step) {
-            if (step === null) step = 1;
+            if (step === undefined) step = 1;
             if (step > 0) {
                 for (var i = start; i <= end; i += step)
                 arr.push(i);
@@ -20,7 +20,7 @@
                 for (var i = start; i >= end; i += step)
                 arr.push(i);
             } return arr;
-        } console.log(range(0, 20, 4));
+        } console.log(range(0, 20, ));
         </script>
     </body>
 </html>
