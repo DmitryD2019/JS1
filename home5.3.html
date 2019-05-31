@@ -1,0 +1,22 @@
+<html>
+    <head>
+	    <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            var student = {
+                name: 'John',
+                lastname: 'Brown',
+                age: 25 ,
+                hobby: ['swimming, fishing, biking'],
+                studyingPlace: 'Oxford',
+            };
+            console.log(student);
+            function print({name, lastname, age, hobby, studyingPlace}) {        
+                console.log(name + ' ' + lastname + ' ' + age + ' ' + hobby + ' ' + studyingPlace); 
+            }
+            console.log(print(student));
+        </script>
+    </body>
+</html>
