@@ -1,7 +1,7 @@
 <html>        
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <title>Time</title>
         <link rel="stylesheet" href="style7.css">
     </head>
     <body>
@@ -15,8 +15,17 @@
             var hours = date.getHours();
             var minutes = date.getMinutes(); 
             var seconds = date.getSeconds();
-            document.getElementById('hours', 'minutes', 'seconds').innerHTML = hours + ':' + minutes + ':' + seconds;
-            setInterval(getDate, 0);
+           /* getElementById('hours').style.color = 'red'
+            getElementById('minutes').style.color = 'green'
+            getElementById('seconds').style.color = 'blue' */
+
+            setInterval(
+                function getElementById() {
+                    document.getElementById('hours').innerHTML = hours + ":";
+                    document.getElementById('minutes').innerHTML = minutes + ":";
+                    document.getElementById('seconds').innerHTML = seconds;   
+                },
+            0);
         </script>
     </body>    
 </html>
