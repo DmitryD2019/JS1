@@ -1,0 +1,15 @@
+#container p {
+    background: orange;
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 5px;
+    text-align: center;
+    width: 200px;
+    color: white;
+}
+
+#container {
+    color: #333;
+    transition-property: background-color;
+    transition-duration: 1.5s;
+}
